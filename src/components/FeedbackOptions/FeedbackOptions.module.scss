@@ -1,0 +1,29 @@
+.FeedbackOptions {
+    display: flex;
+    column-gap: 5px;
+}
+
+.FeedbackOptions__btn {
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.722);
+
+    &:hover,
+    &:focus {
+        outline: 2px solid rgba(0, 0, 0, 0.722);
+
+    }
+
+    &--Good {
+        background-color: rgb(80, 188, 84);
+    }
+
+    &--Neutral {
+        background-color: rgb(220, 227, 100);
+    }
+
+    &--Bad {
+        background-color: tomato;
+    }
+}
